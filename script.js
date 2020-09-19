@@ -66,5 +66,53 @@ init();
 function init() {
     var data = localStorage.getItem("hour-9");
     
-    if (data !== null){}
+    if (data !== null){
+        $("#9").text(localStorage.getItem("hour-9"))
+    }
+
+    data = localStorage.getItem("hour-10");
+    if (data !== null){
+        $("#10").text(localStorage.getItem("hour-10"))
+    }
+
+    data = localStorage.getItem("hour-11");
+    if (data !== null){
+        $("#11").text(localStorage.getItem("hour-11"))
+    }
+
+
+    data = localStorage.getItem("hour-12");
+    if (data !== null){
+        $("#12").text(localStorage.getItem("hour-12"))
+    }
+
+
+    data = localStorage.getItem("hour-1");
+    if (data !== null){
+        $("#1").text(localStorage.getItem("hour-1"))
+    }
+
+
+    data = localStorage.getItem("hour-2");
+    if (data !== null){
+        $("#2").text(localStorage.getItem("hour-2"))
+    }
+
+
+    data = localStorage.getItem("hour-3");
+    if (data !== null){
+        $("#3").text(localStorage.getItem("hour-3"))
+    }
+
+
+    data = localStorage.getItem("hour-4");
+    if (data !== null){
+        $("#4").text(localStorage.getItem("hour-4"))
+    }
+
+
+    data = localStorage.getItem("hour-5");
+    if (data !== null){
+        $("#5").text(localStorage.getItem("hour-5"))
+    }
 }
