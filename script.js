@@ -1,15 +1,15 @@
-var currentDate = $("#currentDay");
+const currentDate = $("#currentDay");
 currentDate.text(moment().format("dddd, MMMM Do"));
 
-var nine = $("#9am");
-var ten = $("#ten");
-var eleven = $("#eleven");
-var twelve = $("#twelve");
-var one = $("#one");
-var two = $("#two");
-var three = $("#three");
-var four = $("#four");
-var five = $("#five");
+const nine = $("#9am");
+const ten = $("#ten");
+const eleven = $("#eleven");
+const twelve = $("#twelve");
+const one = $("#one");
+const two = $("#two");
+const three = $("#three");
+const four = $("#four");
+const five = $("#five");
 
 // 1.- Display current time using Moment.js
 console.log(moment().format("dddd, MMMM Do"));
